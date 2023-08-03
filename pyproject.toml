@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "koki-app-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["koki.hikichi <koki.hikichi@mail>"]
+readme = "README.md"
+packages = [{include = "koki_app_streamlit"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
